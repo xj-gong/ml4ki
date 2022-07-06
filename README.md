@@ -44,7 +44,7 @@ Custom codes (i.e., vimp.R and cindex_CI.R) and an example data (hypertension_da
 
 **hypertension_data.RData**: example input data
 
-  * Integrated patient population dataset (please refer to *Data integration* in METHOD for details), with *Hypertension* as the representative AE.
+  * Integrated patient population dataset (please refer to *Data integration* in METHODS for details), with *Hypertension* as the representative AE.
   + The example data was derived from multiple registrational clinical trial data that carry proprietary and business sensitive information from pharmaceutical firms. As such, the data has been encrypted and may be made available upon the request sent to corresponding author and the availability of non-disclosure agreement.
 
 
