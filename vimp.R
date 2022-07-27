@@ -47,25 +47,3 @@ ggsurvplot(fit,
 )
 
 
-varr= dat4rf$JAK3.JH1domain.catalytic.
-dat4rf$cuts <- cut(varr, c(min(varr)-.01,median(varr),max(varr)))
-
-fit <- survfit(Surv(time, status) ~ cuts ,data = dat4rf)
-
-ggsurvplot(fit, 
-           legend = c(0.7,0.2), 
-           legend.title = "",
-           legend.labs = c("lower inhibition","higher inhibition"),
-           palette = c("#E7B800", "#2E9FDF"), 
-           conf.int = TRUE, 
-           pval = FALSE, 
-           pval.method = FALSE,
-           pval.size=4,
-           title ="JAK2",
-           font.x =  10,
-           font.y = 10,
-           xlab='Time after treatment (day)',
-           ylab="Probability of no hypertension",
-           xlim=c(0,500),
-           ylim=c(0.25,1)
-)
