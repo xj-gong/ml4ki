@@ -22,7 +22,7 @@ p1<-ggplot(data=df1, aes(x=reorder(vars, vimp), y=vimp))  +
 p1 + coord_flip() +labs(x='',y='Variable importance') +theme(axis.ticks=element_blank())
 
 
-# --- Figure 2b:  Hypertension probability: stratified by VEGFR2, JAK inhibition----
+# --- Figure 2b:  Hypertension probability: stratified by VEGFR2 inhibition----
 varr= dat4rf$VEGFR2
 dat4rf$cuts <- cut(varr, c(min(varr)-.01,median(varr),max(varr)))
 
