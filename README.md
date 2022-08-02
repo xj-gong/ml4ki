@@ -19,25 +19,19 @@ R version 4.1.1 (2021-08-10)
 ### Installation 
 Before running the codes, users should have R version 3.4.0 or higher, and several packages set up.
 
-For **vimp.R** (**./DemoDataCode**)
+For **vimp.R** 
 
 ```r
 install.packages("randomForestSRC")
 install.packages("survminer")
 ```
-For **cindex_CI.R** (**./DemoDataCode**)
+For **cindex_CI.R** 
 
 ```r
 install.packages("survival")
 install.packages("BiocManager")
 BiocManager::install("survcomp")
 ```
-For **Shiny app** (**./Code_Shiny_ml4ki**)
-
-```r
-"global.R" provides a list of required packages
-```
-Expected installation time:  < 20 minutes
 
 ### Instruction for use / Demo
 Custom codes (i.e., vimp.R and cindex_CI.R) for reproducing the results reported in the manuscript regarding representative AE *Hypertension*. 
