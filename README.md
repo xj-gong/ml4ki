@@ -36,7 +36,7 @@ BiocManager::install("survcomp")
 ### Instruction for use / Demo
 Custom codes (i.e., vimp.R and cindex_CI.R) for reproducing the results reported in the manuscript regarding representative AE *Hypertension*. 
 
-**hypertension_data.RData**: example input data
+<span style="color:grey">**hypertension_data.RData**: example input data </span>
 
   * Integrated patient population dataset (please refer to *Data integration* in METHODS for details), with *Hypertension* as the representative AE.
   + The example data was derived from multiple registrational clinical trial data that carry proprietary and business sensitive information from pharmaceutical firms. As such, the data has been encrypted and may be made available upon the request sent to corresponding author and the availability of non-disclosure agreement.
