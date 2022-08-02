@@ -40,7 +40,7 @@ For **Shiny app** (**./Code_Shiny_ml4ki**)
 Expected installation time:  < 20 minutes
 
 ### Instruction for use / Demo
-Custom codes (i.e., vimp.R and cindex_CI.R) and an example data (hypertension_data.RData) are for reproducing the results reported in the manuscript regarding representative AE *Hypertension*. 
+Custom codes (i.e., vimp.R and cindex_CI.R) for reproducing the results reported in the manuscript regarding representative AE *Hypertension*. 
 
 **hypertension_data.RData**: example input data
 
